@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "MeetingBaasDocs": {
+            "url": "https://mcp.meetingbaas.com/sse",
+            "env": {
+                "BAAS_URL": "https://api.meetingbaas.com",
+                "REDIS_URL": "rediss://default:AZXXXXXXXX32.upstash.io:6379"
+            }
+        }
+    }
+}

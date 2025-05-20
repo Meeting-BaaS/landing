@@ -1,0 +1,1 @@
+npm install @meeting-baas/sdk 

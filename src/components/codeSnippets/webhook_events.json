@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "type": "meeting.started",
+            "event_id": "evt_123456789",
+            "created_at": "2023-06-01T12:00:00Z",
+            "data": {
+                "botId": "bot_abcdef123456",
+                "meetingUrl": "https://meet.google.com/abc-def-ghi",
+                "startTime": "2023-06-01T12:00:00Z"
+            }
+        },
+        {
+            "type": "meeting.completed",
+            "event_id": "evt_123456790",
+            "created_at": "2023-06-01T13:00:00Z",
+            "data": {
+                "botId": "bot_abcdef123456",
+                "meetingUrl": "https://meet.google.com/abc-def-ghi",
+                "duration": 3600,
+                "mp4Url": "https://storage.example.com/recordings/meeting-123.mp4",
+                "transcripts": [
+                    {
+                        "speaker": "John Doe",
+                        "startTime": 15.5,
+                        "endTime": 20.2,
+                        "text": "Hello everyone, thanks for joining."
+                    }
+                ]
+            }
+        }
+    ]
+}
