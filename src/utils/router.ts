@@ -51,7 +51,7 @@ export function openDocs() {
 
 export function loginRedirect(props: { redirect: string }) {
     if (typeof window !== 'undefined') {
-        window.location.href = `https://${process.env.AUTH_URL}/sign-in?redirectTo=${props.redirect}`
+        window.location.href = `${process.env.GATSBY_AUTH_URL}/sign-in?redirectTo=${props.redirect}`
     }
 }
 
