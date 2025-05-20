@@ -131,7 +131,7 @@ let plugins = [
     'gatsby-plugin-postcss',
 ]
 
-if (process.env.GATSBY_ACTIVATE_SEO === 'true') {
+if (process.env.ACTIVATE_SEO === 'true') {
     console.info('🐮 Adding canonical to landing build 🐮')
     plugins.push({
         resolve: `gatsby-plugin-canonical-urls`,
