@@ -29,7 +29,7 @@ const Home = () => {
                     title1="Meeting Bots"
                     title2=""
                     title3="as a Service"
-                    subtitle1="The developer API for programmatic access to meeting data across Zoom, Meet, and Teams."
+                    subtitle1="The Open-Source developer API for access to meeting data across Zoom, Meet, and Teams."
                     subtitle2="Hosted and ready to use, with the option to self-host when you're ready."
                     buttonName="Try AI chat"
                     onButtonClick={tryAiChat}
