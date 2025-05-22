@@ -33,7 +33,7 @@ const NotFoundPage = () => {
                         <Button name="Go to Chat App" color="green" onClick={() => window.open(chatUrl, '_blank')} />
                         <Button name="Go to Analytics App" color="green" onClick={() => window.open(analyticsUrl, '_blank')} />
                         <Button name="Go to Logs App" color="green" onClick={() => window.open(logsUrl, '_blank')} />
-                        <Button name="Pricing and Billing" color="green" onClick={() => (window.location.href = '/pricing')} />
+                        <Button name="Pricing and Billing" color="green" onClick={() => window.open('https://pricing.meetingbaas.com', '_blank')} />
                     </div>
                     <div className="w-full mt-8">
                         {/* Fun code snippet as an easter egg */}
